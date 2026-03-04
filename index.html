@@ -3,30 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precision Plumbing | Expert Service, 24/7 Reliability</title>
+    <title>Precision Plumbing | Professional Service in Jacksonville</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3 { font-family: 'Poppins', sans-serif; }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
-
-    <!-- Emergency Banner -->
-    <div class="bg-blue-600 text-white text-center py-2 text-sm font-semibold">
-        🚨 Emergency Service Available 24/7 — Call Now: (555) 012-3456
-    </div>
+<body class="bg-slate-50 text-slate-900 selection:bg-blue-100 selection:text-blue-900">
 
     <!-- Navigation -->
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
+            <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center space-x-2">
-                    <div class="bg-blue-600 p-1.5 rounded-lg text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/><path d="M15 22c3.3 0 6-2.7 6-6 0-1.5-.6-2.9-1.7-3.9l-4.3-4.1-4.3 4.1C9.6 13.1 9 14.5 9 16c0 3.3 2.7 6 6 6z"/></svg>
+                    <div class="bg-blue-600 p-2 rounded-xl text-white shadow-lg shadow-blue-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/><path d="M15 22c3.3 0 6-2.7 6-6 0-1.5-.6-2.9-1.7-3.9l-4.3-4.1-4.3 4.1C9.6 13.1 9 14.5 9 16c0 3.3 2.7 6 6 6z"/></svg>
                     </div>
-                    <span class="text-xl font-bold tracking-tight text-slate-900">Precision<span class="text-blue-600">Plumbing</span></span>
+                    <span class="text-2xl font-bold tracking-tight text-slate-900 underline decoration-blue-500/30 decoration-4 underline-offset-4">Precision<span class="text-blue-600">Plumbing</span></span>
                 </div>
                 <div class="hidden md:flex space-x-10 font-semibold text-slate-600">
                     <a href="index.html" class="text-blue-600">Home</a>
@@ -34,159 +30,97 @@
                     <a href="about.html" class="hover:text-blue-600 transition">About Us</a>
                     <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
                 </div>
-                <div>
-                    <a href="tel:5550123456" class="bg-blue-600 text-white px-5 py-2.5 rounded-full font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Book Now</a>
-                </div>
+                <a href="contact.html" class="bg-blue-600 text-white px-7 py-3 rounded-xl font-bold hover:bg-blue-700 transition shadow-xl shadow-blue-100 transform active:scale-95 duration-200">Book Appointment</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative bg-white pt-20 pb-32 overflow-hidden">
+    <section class="relative bg-white pt-24 pb-32 overflow-hidden border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                 <div>
-                    <span class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider mb-4">Master Licensed Plumbers</span>
-                    <h1 class="text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-                        Expert Plumbing Solutions <br> <span class="text-blue-600">Without the Stress.</span>
+                    <span class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-widest mb-6">Expert Plumbing | Jacksonville, FL</span>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-8">
+                        The Master Standard <br> <span class="text-blue-600">For Your Home.</span>
                     </h1>
-                    <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-lg">
-                        From leaky faucets to full sewer line replacements, we provide transparent, high-quality plumbing services for Jacksonville homeowners. 
+                    <p class="text-xl text-slate-600 mb-10 leading-relaxed max-w-lg">
+                        From luxury bathroom installs to emergency pipe repairs, we provide transparent, high-quality plumbing with 24/7 reliability. 
                     </p>
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="#contact" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold text-center hover:bg-slate-800 transition">Request a Free Quote</a>
+                        <a href="contact.html" class="bg-slate-900 text-white px-10 py-5 rounded-2xl font-bold text-center hover:bg-slate-800 transition shadow-2xl shadow-slate-200">Start Your Project</a>
                         <div class="flex items-center space-x-3 px-4 py-4">
-                            <div class="flex -space-x-2">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                            <div class="flex -space-x-3">
+                                <img class="w-12 h-12 rounded-full border-4 border-white shadow-lg" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                <img class="w-12 h-12 rounded-full border-4 border-white shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
                             </div>
-                            <div class="text-sm font-semibold">
-                                <p class="text-slate-900">4.9/5 Rating</p>
-                                <p class="text-slate-500">From 200+ Reviews</p>
+                            <div class="text-sm font-bold">
+                                <p class="text-slate-900 leading-none">4.9/5 Master Rating</p>
+                                <p class="text-slate-500 mt-1">Trusted by 2,000+ Locals</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 lg:mt-0 relative">
-                    <div class="bg-blue-600 absolute -inset-4 rounded-3xl opacity-5 transform rotate-3"></div>
-                    <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=1200" alt="Plumbing Service" class="relative rounded-3xl shadow-2xl object-cover h-[500px] w-full">
+                <div class="mt-16 lg:mt-0 relative">
+                    <div class="absolute -inset-10 bg-blue-600/5 rounded-full blur-3xl"></div>
+                    <div class="relative rounded-[3rem] overflow-hidden shadow-[0_40px_80px_-15px_rgba(0,0,0,0.1)] border-8 border-white">
+                        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=1200" alt="Master Plumbing Service" class="w-full h-[600px] object-cover hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="absolute -bottom-10 -left-10 glass p-8 rounded-3xl shadow-2xl border-slate-200/50 max-w-[280px]">
+                        <p class="text-blue-600 font-bold mb-1">24/7 Emergency</p>
+                        <p class="text-slate-900 text-sm font-semibold">Response time under 30 minutes across Jacksonville.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trust Signals -->
-    <div class="bg-slate-50 border-y border-slate-200 py-10">
-        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition duration-500">
-            <span class="font-bold text-xl uppercase tracking-widest text-slate-400 italic">Licensed & Bonded</span>
-            <span class="font-bold text-xl uppercase tracking-widest text-slate-400 italic">Insured</span>
-            <span class="font-bold text-xl uppercase tracking-widest text-slate-400 italic">24/7 Availability</span>
-            <span class="font-bold text-xl uppercase tracking-widest text-slate-400 italic">Local Pros</span>
-        </div>
-    </div>
-
-    <!-- Services Section -->
-    <section id="services" class="py-24 bg-white">
+    <!-- Services Grid (Compact) -->
+    <section class="py-32 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-slate-900 mb-4">Comprehensive Plumbing Services</h2>
-                <p class="text-slate-600 max-w-2xl mx-auto">We handle everything from minor repairs to major installations with precision and care.</p>
+            <div class="flex justify-between items-end mb-20">
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-6">Expertise When You Need It.</h2>
+                    <p class="text-lg text-slate-500">We specialize in high-complexity plumbing solutions for Jacksonville homeowners.</p>
+                </div>
+                <a href="services.html" class="hidden md:flex items-center text-blue-600 font-bold hover:underline underline-offset-8">View All Services <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="m9 18 6-6-6-6"/></svg></a>
             </div>
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 hover:shadow-xl transition group">
-                    <div class="bg-blue-600 w-12 h-12 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="glass p-12 rounded-[2.5rem] border-slate-200/50 group hover:shadow-2xl transition duration-500">
+                    <div class="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-10 shadow-xl shadow-blue-200 group-hover:rotate-12 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">General Repairs</h3>
-                    <p class="text-slate-600">Fixing leaks, running toilets, and dripping faucets. We get the job done right the first time.</p>
+                    <h3 class="text-2xl font-bold mb-5">Master Repairs</h3>
+                    <p class="text-slate-500 leading-relaxed">Fast, precise fixing for leaks, running toilets, and dripping faucets. Done right the first time.</p>
                 </div>
-                <!-- Service 2 -->
-                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 hover:shadow-xl transition group">
-                    <div class="bg-blue-600 w-12 h-12 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thermometer"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></svg>
+                <div class="glass p-12 rounded-[2.5rem] border-slate-200/50 group hover:shadow-2xl transition duration-500">
+                    <div class="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-10 shadow-xl shadow-blue-200 group-hover:rotate-12 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/></svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Water Heaters</h3>
-                    <p class="text-slate-600">Installation, maintenance, and repair for tankless and traditional water heating systems.</p>
+                    <h3 class="text-2xl font-bold mb-5">Water Filtration</h3>
+                    <p class="text-slate-500 leading-relaxed">Combat Jacksonville's hard water with pro-grade softening and filtration systems.</p>
                 </div>
-                <!-- Service 3 -->
-                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 hover:shadow-xl transition group">
-                    <div class="bg-blue-600 w-12 h-12 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <div class="glass p-12 rounded-[2.5rem] border-slate-200/50 group hover:shadow-2xl transition duration-500">
+                    <div class="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-10 shadow-xl shadow-blue-200 group-hover:rotate-12 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Leak Detection</h3>
-                    <p class="text-slate-600">State-of-the-art non-invasive technology to find and fix hidden leaks before they cause damage.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Us -->
-    <section id="why-us" class="py-24 bg-slate-900 text-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div>
-                    <h2 class="text-3xl lg:text-4xl font-bold mb-8 leading-tight">Professional Plumbing You Can Trust.</h2>
-                    <ul class="space-y-6">
-                        <li class="flex items-start space-x-4">
-                            <div class="bg-blue-600 p-1 rounded-full mt-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-white"><path d="M20 6 9 17l-5-5"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-lg">Upfront Pricing</h4>
-                                <p class="text-slate-400">No surprises or hidden fees. You approve the price before we start the work.</p>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-4">
-                            <div class="bg-blue-600 p-1 rounded-full mt-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-white"><path d="M20 6 9 17l-5-5"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-lg">Master Plumbers</h4>
-                                <p class="text-slate-400">Our technicians are highly trained, fully licensed, and background-checked.</p>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-4">
-                            <div class="bg-blue-600 p-1 rounded-full mt-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-white"><path d="M20 6 9 17l-5-5"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-lg">Satisfaction Guaranteed</h4>
-                                <p class="text-slate-400">We stand by our work. If you're not happy, we'll make it right.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="bg-slate-800 p-10 rounded-3xl border border-slate-700">
-                    <h3 class="text-2xl font-bold mb-6 text-center">Request Your Free Estimate</h3>
-                    <form class="space-y-4">
-                        <input type="text" placeholder="Your Name" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-600">
-                        <input type="email" placeholder="Email Address" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-600">
-                        <select class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-600">
-                            <option>General Repair</option>
-                            <option>Drain Cleaning</option>
-                            <option>Water Heater</option>
-                            <option>Other</option>
-                        </select>
-                        <textarea placeholder="How can we help?" rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-600"></textarea>
-                        <button class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition">Get My Free Quote</button>
-                    </form>
+                    <h3 class="text-2xl font-bold mb-5">Sewer Analysis</h3>
+                    <p class="text-slate-500 leading-relaxed">State-of-the-art camera inspections to find hidden line issues before they cause damage.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-white py-12 border-t border-slate-200">
+    <!-- Global Footer -->
+    <footer class="bg-white py-16 border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <div class="flex items-center justify-center space-x-2 mb-6">
-                <div class="bg-blue-600 p-1.5 rounded-lg text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/><path d="M15 22c3.3 0 6-2.7 6-6 0-1.5-.6-2.9-1.7-3.9l-4.3-4.1-4.3 4.1C9.6 13.1 9 14.5 9 16c0 3.3 2.7 6 6 6z"/></svg>
+            <div class="flex items-center justify-center space-x-2 mb-8">
+                <div class="bg-blue-600 p-2 rounded-xl text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/></svg>
                 </div>
-                <span class="text-xl font-bold tracking-tight text-slate-900">Precision<span class="text-blue-600">Plumbing</span></span>
+                <span class="text-2xl font-bold tracking-tight text-slate-900">Precision<span class="text-blue-600">Plumbing</span></span>
             </div>
-            <p class="text-slate-500 text-sm">&copy; 2026 Precision Plumbing Services. Serving Jacksonville, Florida. Licensed FL#123456.</p>
+            <p class="text-slate-500 text-sm font-medium tracking-wide">&copy; 2026 Precision Plumbing Services. Jacksonville's Premier Plumbing Solution. FL#123456.</p>
         </div>
     </footer>
 
