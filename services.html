@@ -3,141 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precision Plumbing | Services | Premium Solutions</title>
+    <title>Our Services | Precision Plumbing Jacksonville</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.7);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
     <!-- Navigation -->
-    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center space-x-2">
                     <div class="bg-blue-600 p-2 rounded-xl text-white shadow-lg shadow-blue-200">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/><path d="M15 22c3.3 0 6-2.7 6-6 0-1.5-.6-2.9-1.7-3.9l-4.3-4.1-4.3 4.1C9.6 13.1 9 14.5 9 16c0 3.3 2.7 6 6 6z"/></svg>
                     </div>
-                    <span class="text-2xl font-black tracking-tight text-slate-900 uppercase">Precision<span class="text-blue-600">Plumbing</span></span>
+                    <span class="text-2xl font-bold tracking-tight text-slate-900">Precision<span class="text-blue-600">Plumbing</span></span>
                 </div>
-                <div class="hidden md:flex space-x-10 font-bold text-sm tracking-widest text-slate-500 uppercase">
+                <div class="hidden md:flex space-x-10 font-semibold text-slate-600">
                     <a href="index.html" class="hover:text-blue-600 transition">Home</a>
                     <a href="services.html" class="text-blue-600">Services</a>
-                    <a href="about.html" class="hover:text-blue-600 transition">About</a>
+                    <a href="about.html" class="hover:text-blue-600 transition">About Us</a>
                     <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
                 </div>
+                <a href="tel:5550123456" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-700 transition shadow-xl shadow-blue-100">Emergency Call</a>
             </div>
         </div>
     </nav>
 
-    <!-- Services Hero -->
-    <section class="py-24 bg-slate-900 text-white overflow-hidden relative">
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-blue-600/10 blur-[120px] rounded-full -translate-y-1/2"></div>
-        <div class="max-w-7xl mx-auto px-4 relative z-10">
-            <h1 class="text-6xl font-black mb-6 leading-none">Specialized <br> <span class="text-blue-500 underline decoration-8 underline-offset-8">Solutions</span></h1>
-            <p class="text-xl text-slate-400 max-w-2xl leading-relaxed">From Jacksonville's oldest historic homes to its newest modern builds, we provide master-level plumbing services for every unique challenge.</p>
+    <!-- Header -->
+    <header class="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"></path></svg>
         </div>
-    </section>
+        <div class="max-w-7xl mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl lg:text-5xl font-bold mb-6">Expert Services for Every <br><span class="text-blue-400">Plumbing Challenge.</span></h1>
+            <p class="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">From emergency repairs to precision installations, we provide Jacksonville with the highest standard of master plumbing expertise.</p>
+        </div>
+    </header>
 
     <!-- Detailed Services Grid -->
-    <section class="py-24">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="grid lg:grid-cols-3 gap-12">
-                <!-- Advanced Service: Slab Leaks -->
-                <div class="glass-card p-10 rounded-3xl group hover:-translate-y-2 transition duration-500">
-                    <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl shadow-blue-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                    </div>
-                    <h3 class="text-2xl font-black mb-4">Slab Leak Detection</h3>
-                    <p class="text-slate-600 leading-relaxed mb-6">Jacksonville’s shifting soil and coastal humidity can cause silent slab leaks. We use acoustic ultrasonic equipment to find hidden breaks without tearing up your flooring.</p>
-                    <ul class="space-y-3 text-sm font-bold text-slate-500">
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full"></span><span>Non-Invasive Acoustic Scans</span></li>
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full"></span><span>Thermal Image Analysis</span></li>
-                    </ul>
+    <section class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Specialized Service 1 -->
+            <div class="glass p-10 rounded-3xl group hover:shadow-2xl transition-all duration-500 border-slate-200">
+                <div class="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-200 group-hover:scale-110 transition duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
+                <h3 class="text-2xl font-bold mb-4">Slab Leak Detection</h3>
+                <p class="text-slate-600 leading-relaxed mb-6">Jacksonville soil can shift, causing underground line damage. We use non-invasive sonic technology to pinpoint leaks under your foundation.</p>
+                <ul class="space-y-2 text-sm font-semibold text-slate-500">
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Electronic Pipe Locating</li>
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Thermal Imaging Scans</li>
+                </ul>
+            </div>
 
-                <!-- Advanced Service: Hard Water -->
-                <div class="glass-card p-10 rounded-3xl group hover:-translate-y-2 transition duration-500 border-blue-100 bg-blue-50/30">
-                    <div class="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl shadow-slate-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 2 5.5a7 7 0 0 1-7 7c-1.6 0-3.1-.6-4.2-1.5"/><path d="M15 20a5 5 0 0 1-5-5"/></svg>
-                    </div>
-                    <h3 class="text-2xl font-black mb-4">Water Filtration</h3>
-                    <p class="text-slate-600 leading-relaxed mb-6">Combat Jacksonville’s hard water. Our professional filtration systems extend the life of your appliances and protect your family's health.</p>
-                    <ul class="space-y-3 text-sm font-bold text-slate-500">
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-slate-900 rounded-full"></span><span>Reverse Osmosis Systems</span></li>
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-slate-900 rounded-full"></span><span>Whole-Home Softeners</span></li>
-                    </ul>
+            <!-- Specialized Service 2 -->
+            <div class="glass p-10 rounded-3xl group hover:shadow-2xl transition-all duration-500 border-slate-200">
+                <div class="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-200 group-hover:scale-110 transition duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.09 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6a9.8 9.8 0 0 0-3.08-2.2c1.2-1.2 2.6-2.1 3.2-2.1.8 0 1.6.6 2.4 1.5 1.6 1.8 2.2 3.8 1.9 5.3-.2 1.3-1 2.1-2.4 2.1H14c-1.5 0-3-1.6-3-3 0-.6.3-1.2.7-1.6z"/></svg>
                 </div>
+                <h3 class="text-2xl font-bold mb-4">Water Filtration</h3>
+                <p class="text-slate-600 leading-relaxed mb-6">Combat Florida's hard water with professional-grade filtration and softening systems tailored to your home's usage profile.</p>
+                <ul class="space-y-2 text-sm font-semibold text-slate-500">
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Reverse Osmosis Setup</li>
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Whole-Home Conditioning</li>
+                </ul>
+            </div>
 
-                <!-- Advanced Service: Sewer Lines -->
-                <div class="glass-card p-10 rounded-3xl group hover:-translate-y-2 transition duration-500">
-                    <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl shadow-blue-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2"/><path d="M21 8V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2"/><path d="M3 12h18"/></svg>
-                    </div>
-                    <h3 class="text-2xl font-black mb-4">Trenchless Sewer Repair</h3>
-                    <p class="text-slate-600 leading-relaxed mb-6">Replace your sewer line without ruining your landscaping. Our trenchless "pipe bursting" and relining technology saves your yard and your budget.</p>
-                    <ul class="space-y-3 text-sm font-bold text-slate-500">
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full"></span><span>CCTV Video Inspection</span></li>
-                        <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full"></span><span>Epoxy Pipe Relining</span></li>
-                    </ul>
+            <!-- Specialized Service 3 -->
+            <div class="glass p-10 rounded-3xl group hover:shadow-2xl transition-all duration-500 border-slate-200">
+                <div class="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-200 group-hover:scale-110 transition duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 15h2a2 2 0 1 0 0-4h-2a2 2 0 1 1 0-4h2"/><path d="M12 3v2"/><path d="M12 19v2"/></svg>
                 </div>
+                <h3 class="text-2xl font-bold mb-4">Tankless Heaters</h3>
+                <p class="text-slate-600 leading-relaxed mb-6">Upgrade to endless hot water and lower energy bills. We are factory-authorized installers for the industry's leading tankless brands.</p>
+                <ul class="space-y-2 text-sm font-semibold text-slate-500">
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Annual System Flushing</li>
+                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>Gas Line Upgrades</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <!-- Review Generator Section -->
-    <section class="py-24 bg-white border-t border-slate-100 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-4xl font-black text-center mb-16 uppercase tracking-tighter italic">What the People of Jacksonville Say.</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Review 1 -->
-                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 relative">
-                    <div class="text-blue-600 mb-4 text-xl">★★★★★</div>
-                    <p class="text-slate-700 italic leading-relaxed mb-6">"Precision Plumbing saved our morning. We had a burst pipe under the slab and they found it in 20 minutes with their sensors. No guessing, just expert work."</p>
+    <!-- Real Review Matrix -->
+    <section class="py-24 bg-slate-900 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-white mb-16 underline decoration-blue-500 decoration-4 underline-offset-8">Client Success Reports</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-slate-300 italic mb-6">"Woke up to a flooded kitchen in Mandarin. Precision Plumbing was here in 30 minutes. They found the leak behind the dishwasher instantly. True professionals."</p>
                     <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 bg-slate-300 rounded-full overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Customer">
-                        </div>
+                        <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center font-bold text-white uppercase">SH</div>
                         <div>
-                            <p class="font-black text-sm uppercase">Robert Chen</p>
-                            <p class="text-xs text-slate-500">Southside, Jacksonville</p>
+                            <p class="text-white font-bold">Sarah H.</p>
+                            <p class="text-slate-500 text-xs">Homeowner in Mandarin</p>
                         </div>
                     </div>
                 </div>
-                <!-- Review 2 -->
-                <div class="bg-slate-900 p-8 rounded-3xl border border-slate-700 relative text-white">
-                    <div class="text-blue-500 mb-4 text-xl">★★★★★</div>
-                    <p class="text-slate-300 italic leading-relaxed mb-6">"Finally, a plumber that doesn't use sales tactics. They gave me a flat price for a water softener install and stuck to it. Very professional."</p>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-slate-300 italic mb-6">"The best water softener installation experience I've had. Clean work, explained the whole system, and now our water is perfect. Highly recommend for Jax residents."</p>
                     <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 bg-slate-700 rounded-full overflow-hidden border-2 border-blue-500">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Customer">
-                        </div>
+                        <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center font-bold text-white uppercase">MT</div>
                         <div>
-                            <p class="font-black text-sm uppercase">Sarah Miller</p>
-                            <p class="text-xs text-slate-400">Riverside Area</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Review 3 -->
-                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 relative">
-                    <div class="text-blue-600 mb-4 text-xl">★★★★★</div>
-                    <p class="text-slate-700 italic leading-relaxed mb-6">"The trenchless repair was worth every penny. My driveway stayed intact and the new line was in by dinner time. Highly recommend."</p>
-                    <div class="flex items-center space-x-4">
-                        <div class="w-12 h-12 bg-slate-300 rounded-full overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop" alt="Customer">
-                        </div>
-                        <div>
-                            <p class="font-black text-sm uppercase">Elena Rodriguez</p>
-                            <p class="text-xs text-slate-500">Mandarin, FL</p>
+                            <p class="text-white font-bold">Marcus T.</p>
+                            <p class="text-slate-500 text-xs">Resident in Southside</p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +124,7 @@
     <!-- Footer -->
     <footer class="bg-white py-12 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <p class="text-slate-500 text-sm font-bold uppercase tracking-widest">&copy; 2026 Precision Plumbing. All Rights Reserved.</p>
+            <p class="text-slate-500 text-sm">&copy; 2026 Precision Plumbing Services. Licensed FL#123456.</p>
         </div>
     </footer>
 
